@@ -1,0 +1,13 @@
+/* android/app/src/main/AndroidManifest.xml */
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Podemos acessar sua localização para melhorar sua experiência no aplicativo?</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>Podemos acessar sua localização para melhorar sua experiência no aplicativo?</string>
+<application>
+   <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="SUA API KEY AQUI"/>
+</application>
